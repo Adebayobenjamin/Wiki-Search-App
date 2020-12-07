@@ -1,0 +1,50 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 10px;
+    margin-top: 20%;
+}
+#input-field{
+    width: 100%;
+    text-align: center;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    width: 45px;
+    
+}
+#input-field input{
+    width: 80%;
+    padding: 10px;
+}
+button{
+    padding: 12px;
+    width: 80px;
+    cursor: pointer;
+    background-color: rgb(0, 89, 255);
+    color: white;
+    border: none;
+}
+hr{
+    color: rgb(185, 172, 172);
+}
+#result{
+    margin-top: 10px;
+}
+#result .result-div{
+    margin: 1% 1%;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1%;
+    text-align: center;
+
+}
+@media (max-width: 900px){
+    .container{
+      margin-top: 30%;
+    }
+}
